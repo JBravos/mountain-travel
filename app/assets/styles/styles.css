@@ -143,7 +143,7 @@ header nav li {
 	height: 100%;
 	background-size: cover;
 	z-index: -1;
-	backgroun-color: #80a3db;
+	background-color: #80a3db;
 }
 
 .hero h1 {
@@ -225,6 +225,11 @@ header nav li {
 
 /*Packages Section*/
 
+.packages p {
+	max-width: 600px;
+	margin: auto;
+}
+
 .packages .grid li {
 	padding: 50px;
 	flex-basis: 50%;
@@ -244,6 +249,12 @@ header nav li {
 	.packages .grid li {
 		flex-basis: 100%;
 		padding: 20px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.packages p {
+
 	}
 }
 
